@@ -2,6 +2,7 @@ let map = {};
 
 /**
   distributor 클래스
+  MicroService Architecture : Distributor
 */
 class distributor extends require('./server.js') {  // tcpServer 클래스 상속
   constructor () {
