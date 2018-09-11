@@ -1,6 +1,7 @@
 let map = {};
 
 /**
+  ijgong - 20180911
   distributor 클래스
   MicroService Architecture : Distributor
 */
