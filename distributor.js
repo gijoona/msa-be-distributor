@@ -6,6 +6,7 @@ let map = {};
   임의로 내용수정해서 git에 push
   테스트를 위해 추가 수정 1
   테스트를 위해 추가 수정 2
+  테스트를 위해 추가 수정 3
 */
 class distributor extends require('./server.js') {  // tcpServer 클래스 상속
   constructor () {
