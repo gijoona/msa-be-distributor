@@ -3,6 +3,7 @@ let map = {};
 /**
   distributor 클래스
   MicroService Architecture : Distributor
+  임의로 내용수정해서 git에 push
 */
 class distributor extends require('./server.js') {  // tcpServer 클래스 상속
   constructor () {
