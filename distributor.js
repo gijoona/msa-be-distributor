@@ -6,6 +6,7 @@ let map = {};
   distributor 클래스
   MicroService Architecture : Distributor
   테스트1
+  테스트2
 */
 class distributor extends require('./server.js') {  // tcpServer 클래스 상속
   constructor () {
