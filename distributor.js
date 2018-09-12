@@ -5,7 +5,7 @@ let map = {};
   MicroService Architecture : Distributor
   developer - ijgong
   date - 20180912
-  target git - msa_be_distributor:develop2
+  target git - msa_be_distributor:develop3
 */
 class distributor extends require('./server.js') {  // tcpServer 클래스 상속
   constructor () {
