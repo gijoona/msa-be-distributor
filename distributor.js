@@ -1,10 +1,10 @@
 let map = {};
 
 /**
-  developer - ijgong
-  date - 20180911
   distributor 클래스
   MicroService Architecture : Distributor
+  developer - ijgong
+  date - 20180911
   target git - develop
 */
 class distributor extends require('./server.js') {  // tcpServer 클래스 상속
