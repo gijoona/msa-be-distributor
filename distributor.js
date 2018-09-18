@@ -1,3 +1,5 @@
+const conf = require('./conf/config').setting;
+
 let map = {};
 
 /**
@@ -9,7 +11,7 @@ let map = {};
 */
 class distributor extends require('./server.js') {  // tcpServer 클래스 상속
   constructor () {
-    super('distributor', 9000, ["POST/distributes", "GET/distributes"]);
+    super('distributor', conf.distribute.port, ["POST/distributes", "GET/distributes"]);
   }
 
   // 노드 접속 이벤트 처리
