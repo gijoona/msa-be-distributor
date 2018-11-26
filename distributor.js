@@ -20,7 +20,7 @@ class distributor extends require('./server.js') {  // tcpServer 클래스 상�
   }
 
   //접속 해제 이벤트 처리
-  onClose (socket) {
+  onClose (err, socket) {
     let key = socket.remoteAddress + ":" + socket.remotePort;
     delete map[key];
     this.sendInfo();
