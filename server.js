@@ -4,7 +4,7 @@ const net = require('net');
 const tcpClient = require('./client.js'); // tcpClient 클래스 참조
 
 /**
-  tcpServer 클래스
+  tcpServer 클래스 
 */
 class tcpServer {
 
